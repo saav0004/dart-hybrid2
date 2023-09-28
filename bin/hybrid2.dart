@@ -13,6 +13,6 @@ void main(
     int random = lucky.randomNum;
     String argCapitalized = arg[0].toUpperCase() + arg.substring(1);
 
-    print("Hello $argCapitalized Your lucky number is: $random");
+    print("Hello, $argCapitalized! Your lucky number is: $random");
   }
 }
